@@ -131,17 +131,11 @@ marquee {
     clear: both;
 }
 
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-        display: block;
-        margin-bottom: 20px;
-    }
-}
+
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 3px;
+    margin: 30px;
     padding: 20px;
     text-align: center;
     background-color: #f1f1f1;
@@ -154,4 +148,18 @@ marquee {
 #card-img:hover{
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
+}
+#foot{
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+footer {
+    display: flex;
+    justify-content: center;
 }
