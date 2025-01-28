@@ -1,0 +1,157 @@
+body {
+    background-size: auto;
+    background-color: #ffffff; /* Corrected background color */
+
+    margin: 0;
+}
+
+#topbar {
+    background-image: url(https://wallpaperaccess.com/full/2489629.jpg);
+}
+
+marquee {
+    background: transparent;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#offer-mark {
+    color: rgb(9, 240, 229);
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+#brand {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#login {
+    width: 30px;
+    height: 30px;
+}
+
+#logo-name {
+    display: flex;
+    justify-content: space-between; /* Removed duplicate justify-content */
+    align-items: center;
+    padding: 10px;
+}
+
+#nav-bar {
+    display: flex;
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#nav-element {
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+#cat-element {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    margin: 0;
+    padding: 10px;
+}
+
+#cat-ele {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 40px;
+}
+
+
+#ele {
+    color: white;
+    text-decoration: none;
+}
+
+#ele:hover {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+#search {
+    height: 40px;
+    width: 600px;
+    border-radius: 100px;
+    justify-content: center;
+}
+
+::placeholder {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#hero-img{
+    width:100%;
+    height: 350px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 50px 10px;
+}
+
+.row {
+    margin: 0 -5px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 3px;
+    padding: 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+#card-img {
+    width: 100px;
+    height: 100px;
+}
+#card-img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
