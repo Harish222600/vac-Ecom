@@ -118,7 +118,7 @@ marquee {
 .column {
     float: left;
     width: 25%;
-    padding: 50px 10px;
+    padding: 0px 10px;
 }
 
 .row {
@@ -130,8 +130,20 @@ marquee {
     display: table;
     clear: both;
 }
+#offerbanner{
+    display: flex;
+    height: 350px;
+    width: 930px;
+    border-radius: 50px;
 
+}
 
+#offerbanner:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
