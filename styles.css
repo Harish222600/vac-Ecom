@@ -132,17 +132,21 @@ marquee {
 }
 #offerbanner{
     display: flex;
-    height: 350px;
-    width: 930px;
+    height: 340px;
+    width: 600px;
     border-radius: 50px;
 
 }
 
 #offerbanner:hover{
     transform: scale(1.1);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     
+}
+button{
+    border-radius: 10px;
+    background: rgb(7, 165, 139);
 }
 
 .card {
@@ -152,26 +156,34 @@ marquee {
     text-align: center;
     background-color: #f1f1f1;
 }
+.card:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 
 #card-img {
     width: 100px;
     height: 100px;
-}
-#card-img:hover{
-    transform: scale(1.1);
-    transition: all 0.3s ease-in-out;
 }
 #foot{
     background-color: #000000;
     color: white;
     padding: 10px;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 0.7em;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     
 }
-footer {
+#foot {
     display: flex;
     justify-content: center;
+
 }
+.footerlink{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
